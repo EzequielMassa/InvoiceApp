@@ -31,7 +31,7 @@ const NewInvoiceEmail = ({
 	const baseUrl =
 		process.env.NODE_ENV === "development"
 			? "http://localhost:3000"
-			: "https://invoiceapp-lovat.vercel.app";
+			: "https://invoice-app-jade-rho.vercel.app";
 
 	return (
 		<Html>

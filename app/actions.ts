@@ -87,7 +87,7 @@ export async function createInvoice(prevState: any, formData: FormData) {
 			invoiceLink:
 				process.env.NODE_ENV !== "production"
 					? `http://localhost:3000/api/invoice/${data.id}`
-					: `https://invoiceapp-lovat.vercel.app/api/invoice/${data.id}`,
+					: `https://invoice-app-jade-rho.vercel.app/api/invoice/${data.id}`,
 		}),
 	});
 	return redirect("/dashboard/invoices");
@@ -147,11 +147,11 @@ export async function editInvoice(prevState: any, formData: FormData) {
 			invoiceLink:
 				process.env.NODE_ENV !== "production"
 					? `http://localhost:3000/api/invoice/${data.id}`
-					: `https://invoiceapp-lovat.vercel.app/api/invoice/${data.id}`,
+					: `https://invoice-app-jade-rho.vercel.app/api/invoice/${data.id}`,
 		}),
 	});
 
-	return redirect("/dashboard/invoices");
+	https: return redirect("/dashboard/invoices");
 }
 
 export async function DeleteInvoice(invoiceId: string) {

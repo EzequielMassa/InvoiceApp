@@ -40,9 +40,8 @@ Next.js, AuthJS, Neon PostgreSQL DB, Prisma, Resend, React Email, JS PDF, Rechar
 
 ## Live Demo
 
-https://invoiceapp-lovat.vercel.app/
+https://invoice-app-jade-rho.vercel.app
 
 ## Usage/Examples
-
 
 <img src="./public/hero.png"/>
